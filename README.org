@@ -1,0 +1,15 @@
+* Resume
+Welcome to my resume repository! Here you will find the source files for my resume, created using Typst.
+*** Usage
+Clone the repository and navigate to the project
+   #+BEGIN_SRC bash
+     git clone https://github.com/yourusername/resume.git
+     cd resume/
+   #+END_SRC
+Use Typst to compile the source file which produces a resume.pdf.
+   #+BEGIN_SRC bash
+   typst compile resume.typ
+   #+END_SRC
+
+*** Credit
+This resume was created using [[https://github.com/LaurenzV/simplecv][SimpleCV]] template, which I have modified to suit my needs. Special thanks to the original author.
