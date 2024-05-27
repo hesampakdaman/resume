@@ -28,7 +28,7 @@
 #set text(size: 10pt, font: "New Computer Modern")
 #show heading: set block(above: 1em, below: 0.5em)
 #show par: set block(spacing: 0.5em)
-#show raw: set text(font: "New Computer Modern Mono")
+#show raw: set text(font: "New Computer Modern")
 #show: doc => template(name, contact_data, color, doc)
 
 #align(center)[
@@ -119,7 +119,12 @@
     ),
 )
 
-= Recent hobby projects
-*1 billion row challenge*. #lorem(32)
 
-*Integer factorization*. #lorem(40)
+#show link: set text(fill: rgb(0, 0, 255))
+#show link: underline
+
+= Recent hobby projects
+#link("https://github.com/hesampakdaman/rust_1brc")[*1 billion row challenge*]. This challenge involves processing one billion temperature measurements to compute the minimum, mean, and maximum temperatures per weather station. I implemented this in Rust, leveraging its `std::sync::mpsc` and `std::thread` standard libraries for efficient, parallel data handling and memory-mapped files for optimized I/O performance. By customizing the hash function for the dataset, the project achieves high performance, processing the entire 13GB input file using all available CPU cores. On a MacBook M1 Pro (2021), it processes the input file in $~2.75$s, showcasing Rust's high-performance capabilities.
+\
+\
+#link("https://github.com/hesampakdaman/rustic_factors")[*Integer factorization*]. In this project, I explored various number factorization algorithms. The aim was to learn more about Rust's advanced features such as generics, dynamic dispatch, and procedural macros while implementing design patterns like Strategy, Builder, and New Type. The project includes algorithms such as Miller-Rabin, Fermat's factorization method, Pollard's Rho, and trial division. A trait system was used to apply these strategies, and a test framework was developed using the Builder pattern to ensure robust and modular code.
