@@ -33,50 +33,49 @@
 
 // Entry for skills
 #let skill_entry(category, skills) = {
-  // [== #category]
-  let cell = rect.with(radius: 3pt, inset: 3pt)
+    [=== #category]
+    let cell = rect.with(radius: 3pt, inset: 3pt)
     let boxes = for skill in skills {(box(cell(text(size: 9pt, skill))),)}
-  {boxes.join(" ")}
+    {boxes.join(" ")}
 }
 
 // Set name and contact data and format headings
 #let template(name, contact_data, color, doc) = {
-  set page(margin: (x: 1.5cm, y: 0.5cm))
-  set text(11pt)
-  set par(justify: true, leading: par_space)
-  align(center)[
-    #smallcaps(text(size: 2.5em, fill: color)[#name]) \
-
-    #{
-      if contact_data != none and contact_data.len() > 0 {
-        let elements = for el in contact_data {
-          (link(el.link)[#{box(image(height: 0.7em, "./logo/" + el.service + ".svg")) + " " + el.display}],)
+    set page(margin: (x: 1.5cm, y: 0.5cm))
+    set text(11pt)
+    set par(justify: true, leading: par_space)
+    align(center)[
+        #smallcaps(text(size: 2.5em, fill: color)[#name]) \
+        #{
+            if contact_data != none and contact_data.len() > 0 {
+                let elements = for el in contact_data {
+                    (link(el.link)[#{box(image(height: 0.7em, "./logo/" + el.service + ".svg")) + " " + el.display}],)
+                }
+                elements.join(" | ")
+            }
         }
-        elements.join(" | ")
-      }
+    ]
+
+    show heading.where(level: 1): i => {
+        set align(left)
+        let title = smallcaps(i.body)
+
+        set block(above: 0.2em)
+        set text(weight: "light", size: 1.2em, fill: color)
+        stack(
+            dir: ttb,
+            spacing: 2mm,
+            title,
+            line(length: 100%, stroke: color + 2pt)
+        )
     }
-  ]
 
-  show heading.where(level: 1): i => {
-    set align(left)
-    let title = smallcaps(i.body)
-
-    set block(above: 1em)
-      set text(weight: "light", size: 1.2em, fill: color)
-      stack(
-        dir: ttb,
-        spacing: 2mm,
-        title,
-        line(length: 100%, stroke: color + 2pt)
-    )
-  }
-
-  show heading.where(level: 2): i => {
-    set align(left)
-    let title = smallcaps(i.body)
-    set block(above: 0.8em)
-    set text(weight: "light", size: 1.1em, fill: color)
-    title
-  }
-  doc
+    show heading.where(level: 2): i => {
+        set align(left)
+        let title = smallcaps(i.body)
+        set block(above: 0.8em)
+        set text(weight: "light", size: 1.1em, fill: color)
+        title
+    }
+    doc
 }
