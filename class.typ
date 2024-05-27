@@ -66,7 +66,7 @@
             dir: ttb,
             spacing: 2mm,
             title,
-            line(length: 100%, stroke: color + 2pt)
+            line(length: 100%, stroke: color)
         )
     }
 
