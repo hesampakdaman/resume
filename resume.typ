@@ -52,7 +52,13 @@
     role: "Software Engineer",
     start_date: "Mar 2023",
     description: "Developing an e-commerce platform named Creator Studio; for designing, ordering, and selling custom print-on-demand merchandise globally, with a focus on sustainability and minimal environmental impact.",
-    skills: ("Kafka", "MongoDB", "PostgreSQL", "Terraform")
+    skills: (
+        "Kafka",
+        "Kubernetes",
+        "MongoDB",
+        "PostgreSQL",
+        "Terraform",
+    )
 )
 
 #experience_entry(
@@ -62,7 +68,13 @@
     start_date: "Apr 2022",
     end_date: "Feb 2023",
     description: "Budbee (part of Instabee Group) is a Swedish last-mile delivery company founded in 2016, focusing on efficient deliveries for online shopping across several European countries. I was part of the ML team, providing predictions and data insights to support various departments within the company.",
-    skills: ("Kafka", "MongoDB", "PostgreSQL", "Terraform")
+    skills: (
+        "LightGBM",
+        "Metaflow",
+        "MySQL",
+        "PyTorch",
+        "Snowflake",
+    )
 )
 
 #experience_entry(
@@ -82,7 +94,13 @@
     start_date: "Jan 2018",
     end_date: "Feb 2021",
     description: "At the consultancy firm Design Ingenjörerna I was contracted to work for Convini, a Swedish company providing workplace food solutions through self-service stations. I designed a deep learning system using cameras mounted on fridges to accurately detect which products customers selected.",
-    skills: ("CUDA", "CloneZilla", "FLIR", "NumPy", "PyTorch")
+    skills: (
+        "CUDA",
+        "CloneZilla",
+        "FLIR",
+        "NumPy",
+        "PyTorch"
+    )
 )
 
 = Education
