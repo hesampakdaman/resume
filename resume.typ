@@ -1,13 +1,5 @@
 #import "class.typ": template, skill_entry, experience_entry
 
-// #set page(margin: 1.75in)
-#set par(justify: true)
-#set text(font: "New Computer Modern")
-#show raw: set text(font: "New Computer Modern Mono")
-// #show par: set block(spacing: 0.55em)
-// #show heading: set block(above: 1.4em, below: 1em)
-
-
 // Change the theme color of the cv.
 #let color = black
 // Change to your name.
@@ -32,10 +24,14 @@
   ),
 )
 
+#set par(justify: true)
+#set text(size: 10pt, font: "New Computer Modern")
+#show heading: set block(above: 1em, below: 0.5em)
+#show par: set block(spacing: 0.5em)
+#show raw: set text(font: "New Computer Modern Mono")
 #show: doc => template(name, contact_data, color, doc)
 
 #align(center)[
-    === Progamming langs \
     #skill_entry("Programming languages",
         (
             "Python",
