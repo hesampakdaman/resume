@@ -69,8 +69,8 @@
     logo_path: "./logo/entecon.png",
     company: "Entecon",
     role: "Machine Learning Engineer",
-    start_date: "Apr 2022",
-    end_date: "Feb 2023",
+    start_date: "Feb 2021",
+    end_date: "Mar 2022",
     description: "Entecon is a Swedish consultancy firm. I was contracted to work for Nielsen, a US-based company providing advanced video metadata solutions to leading media companies. My role was to assisst the team responsible for video segmentation, focusing on accurately categorizing commercial and program content.",
     skills: ("Pandas", "PyTorch", "Matplotlib", "NumPy")
 )
