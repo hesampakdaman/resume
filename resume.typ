@@ -7,29 +7,21 @@
 
 // Change the shown contact data. You can also change the order of the elements so that they will show up in a different order. Currently, only these five elements are available with icons, but you can add new ones by editing the template.
 #let contact_data = (
-  (
-    "service": "email",
-    "display": "mail@gmail.com",
-    "link": "mailto://mail@gmail.com"
-  ),
-  (
-    "service": "phone",
-    "display": "+99999999999",
-    "link": "tel:+9999999999"
-  ),
-  (
-    "service": "github",
-    "display": "github.com/hesampakdaman",
-    "link": "https://github.com/hesampakdaman"
-  ),
+    (
+        "service": "github",
+        "display": "hesampakdaman",
+        "link": "https://github.com/hesampakdaman"
+    ),
 )
 
 #set par(justify: true)
 #set text(size: 10pt, font: "New Computer Modern")
-#show heading: set block(above: 1em, below: 0.5em)
+#show heading: set block(above: 1.5em, below: 0.5em)
+#show link: set text(fill: rgb(0, 0, 255))
 #show par: set block(spacing: 0.5em)
 #show raw: set text(font: "New Computer Modern")
 #show: doc => template(name, contact_data, color, doc)
+
 
 #align(center)[
     #skill_entry("Programming languages",
@@ -119,9 +111,7 @@
     ),
 )
 
-
-#show link: set text(fill: rgb(0, 0, 255))
-#show link: underline
+\
 
 = Recent hobby projects
 #link("https://github.com/hesampakdaman/rust_1brc")[*1 billion row challenge*]. This challenge involves processing one billion temperature measurements to compute the minimum, mean, and maximum temperatures per weather station. I implemented this in Rust, leveraging its `std::sync::mpsc` and `std::thread` standard libraries for efficient, parallel data handling and memory-mapped files for optimized I/O performance. By customizing the hash function for the dataset, the project achieves high performance, processing the entire 13GB input file using all available CPU cores. On a MacBook M1 Pro (2021), it processes the input file in $~2.75$s, showcasing Rust's high-performance capabilities.
