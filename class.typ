@@ -1,4 +1,5 @@
 #let par_space = 0.5em
+#let font_default_size = 11pt
 
 #let experience_entry(logo_path: str, logo_size: none, company: str, role: str, start_date: str, end_date: none, description: str, skills: list[str]) = {
     if logo_size == none {
@@ -11,7 +12,7 @@
         grid.cell(
             figure(
                 image(logo_path, width: logo_size),
-                caption: [#text(size:7.5pt, company)],
+                caption: [#text(size: font_default_size - 1.5pt, company)],
                 numbering: none,
                 placement: bottom,
                 kind: image,
@@ -22,9 +23,9 @@
             align: left,
             [
                 *#role* \
-                #text(size: 9pt, start_date)―#text(size: 9pt, end_date)
+                #text(size: font_default_size - 1pt, start_date)―#text(size: font_default_size - 1pt, end_date)
 
-                #text(size: 10pt, description)
+                #description
 
                 #let cell = rect.with(radius: 3pt, inset: 3pt)
                 #let boxes = for skill in skills {(box(cell(text(size: 8pt, skill))),)}
@@ -45,7 +46,7 @@
 // Set name and contact data and format headings
 #let template(name, contact_data, color, doc) = {
     set page(margin: (x: 1.5cm, y: 0.5cm))
-    set text(11pt)
+    set text(font_default_size)
     set par(justify: true, leading: par_space)
     align(center)[
         #smallcaps(text(size: 2.5em, fill: color)[#name]) \
