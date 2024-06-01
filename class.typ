@@ -1,47 +1,5 @@
 #let font_default_size = 11pt
 
-#let experience_entry(logo_path: str, logo_size: none, company: str, role: str, start_date: str, end_date: none, description: str, skills: list[str]) = {
-    if logo_size == none {
-        logo_size = 1.3cm
-    }
-    grid(
-        columns: (3.5cm, 1fr),
-        gutter: 0cm,
-        inset: (x: 5pt, y: 1pt),
-        grid.cell(
-            figure(
-                image(logo_path, width: logo_size),
-                caption: [#text(size: font_default_size - 1.5pt, company)],
-                numbering: none,
-                placement: bottom,
-                kind: image,
-            )
-
-        ),
-        grid.cell(
-            align: left,
-            [
-                *#role* \
-                #text(size: font_default_size - 1pt, start_date)―#text(size: font_default_size - 1pt, end_date)
-
-                #description
-
-                #let cell = rect.with(radius: 3pt, inset: 3pt)
-                #let boxes = for skill in skills {(box(cell(text(size: 8pt, skill))),)}
-                #{boxes.join(" ")}
-            ]
-        ),
-    )
-}
-
-// Entry for skills
-#let skill_entry(category, skills) = {
-    [=== #category]
-    let cell = rect.with(radius: 3pt, inset: 3pt)
-    let boxes = for skill in skills {(box(cell(text(size: 9pt, skill))),)}
-    {boxes.join(" ")}
-}
-
 // Set name and contact data and format headings
 #let template(name, contact_data, color, doc) = {
     set page(margin: (x: 1.5cm, y: 0.5cm))
@@ -86,4 +44,46 @@
         title
     }
     doc
+}
+
+#let experience_entry(logo_path: str, logo_size: none, company: str, role: str, start_date: str, end_date: none, description: str, skills: list[str]) = {
+    if logo_size == none {
+        logo_size = 1.3cm
+    }
+    grid(
+        columns: (3.5cm, 1fr),
+        gutter: 0cm,
+        inset: (x: 5pt, y: 1pt),
+        grid.cell(
+            figure(
+                image(logo_path, width: logo_size),
+                caption: [#text(size: font_default_size - 1.5pt, company)],
+                numbering: none,
+                placement: bottom,
+                kind: image,
+            )
+
+        ),
+        grid.cell(
+            align: left,
+            [
+                *#role* \
+                #text(size: font_default_size - 1pt, start_date)―#text(size: font_default_size - 1pt, end_date)
+
+                #description
+
+                #let cell = rect.with(radius: 3pt, inset: 3pt)
+                #let boxes = for skill in skills {(box(cell(text(size: 8pt, skill))),)}
+                #{boxes.join(" ")}
+            ]
+        ),
+    )
+}
+
+// Entry for skills
+#let skill_entry(category, skills) = {
+    [=== #category]
+    let cell = rect.with(radius: 3pt, inset: 3pt)
+    let boxes = for skill in skills {(box(cell(text(size: 9pt, skill))),)}
+    {boxes.join(" ")}
 }
