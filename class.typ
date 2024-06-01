@@ -22,7 +22,7 @@
             align: left,
             [
                 *#role* \
-                #text(size: 10pt, start_date)―#text(size: 10pt, end_date)
+                #text(size: 9pt, start_date)―#text(size: 9pt, end_date)
 
                 #text(size: 10pt, description)
 
