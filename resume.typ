@@ -113,6 +113,7 @@
 
 \
 
+#show link: underline
 = Recent hobby projects
 #link("https://github.com/hesampakdaman/rust_1brc")[*1 billion row challenge*]. This challenge involves processing one billion temperature measurements to compute the minimum, mean, and maximum temperatures per weather station. I implemented this in Rust, leveraging its `std::sync::mpsc` and `std::thread` standard libraries for efficient, parallel data handling and memory-mapped files for optimized I/O performance. By customizing the hash function for the dataset, the project achieves high performance, processing the entire 13GB input file using all available CPU cores. On a MacBook M1 Pro (2021), it processes the input file in $~2.75$s, showcasing Rust's high-performance capabilities.
 \
