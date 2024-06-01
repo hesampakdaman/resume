@@ -22,7 +22,6 @@
 #show raw: set text(font: "New Computer Modern")
 #show: doc => template(name, contact_data, color, doc)
 
-
 #align(center)[
     #skill_entry("Programming languages",
         (
