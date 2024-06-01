@@ -1,11 +1,7 @@
 #import "class.typ": template, skill_entry, experience_entry
 
-// Change the theme color of the cv.
 #let color = black
-// Change to your name.
 #let name = "Hesam Pakdaman"
-
-// Change the shown contact data. You can also change the order of the elements so that they will show up in a different order. Currently, only these five elements are available with icons, but you can add new ones by editing the template.
 #let contact_data = (
     (
         "service": "github",
