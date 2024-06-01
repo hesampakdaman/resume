@@ -77,7 +77,7 @@
     role: "Machine Learning Engineer",
     start_date: "Jan 2018",
     end_date: "Feb 2021",
-    description: "At the consultancy firm Design Ingenjörerna (DING) I was contracted to work for Convini, a Swedish company providing workplace food solutions through self-service stations. I designed a deep learning system using cameras mounted on fridges to accurately detect which products customers selected.",
+    description: "At " + smallcaps("ding") + " I was hired as a concluntant for Convini, a Swedish company providing workplace food solutions through self-service stations. I designed a deep learning system using cameras mounted on fridges to accurately detect which products customers selected.",
     skills: (
         "CUDA",
         "CloneZilla",
