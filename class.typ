@@ -69,9 +69,9 @@
             [
                 *#role* \
                 #text(size: font_default_size - 1pt, start_date)―#text(size: font_default_size - 1pt, end_date)
-
+                #v(1mm)
                 #description
-
+                #v(1mm)
                 #let cell = rect.with(radius: 3pt, inset: 3pt)
                 #let boxes = for skill in skills {(box(cell(text(size: 8pt, skill))),)}
                 #{boxes.join(" ")}
