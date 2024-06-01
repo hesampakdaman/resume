@@ -8,6 +8,7 @@
         "link": "https://github.com/hesampakdaman"
     ),
 )
+
 #show: doc => template("Hesam Pakdaman", contact_data, black, doc)
 
 #align(center)[
@@ -23,7 +24,7 @@
 = Experience
 #experience_entry(
     logo_path: "./logo/hm.png",
-    logo_size: 1cm,
+    logo_size: 0.85cm,
     company: "H&M Group",
     role: "Software Engineer",
     start_date: "Mar 2023",
