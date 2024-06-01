@@ -103,7 +103,24 @@
 
 #show link: underline
 = Recent hobby projects
-#link("https://github.com/hesampakdaman/rust_1brc")[*1 billion row challenge*]. This challenge involves processing one billion temperature measurements to compute the minimum, mean, and maximum temperatures per weather station. I implemented this in Rust, leveraging its `std::sync::mpsc` and `std::thread` standard libraries for efficient, parallel data handling and memory-mapped files for optimized I/O performance and a customize hash function tailored for the dataset. The project achieves high performance, processing the entire 13GB input file using all available CPU cores. On an Apple M1 Pro it processes the input file in $~2.75$s.
+#link("https://github.com/hesampakdaman/rust_1brc")[*1 billion row challenge*].
+This challenge involves processing one billion temperature
+measurements to compute the minimum, mean, and maximum temperatures
+per weather station. I implemented this in Rust, leveraging its
+`std::sync::mpsc` and `std::thread` standard libraries for efficient,
+parallel data handling and memory-mapped files for optimized I/O
+performance and a customize hash function tailored for the dataset.
+The project achieves high performance, processing the entire 13GB
+input file using all available CPU cores. On an Apple M1 Pro it
+processes the input file in $~2.75$s.
 \
 \
-#link("https://github.com/hesampakdaman/rustic_factors")[*Integer factorization*]. In this project, I explored various number factorization algorithms. The aim was to learn more about Rust's advanced features such as generics, dynamic dispatch, and procedural macros while implementing design patterns like Strategy, Builder, and New Type. The project includes algorithms such as Miller-Rabin, Fermat's factorization method, Pollard's Rho, and trial division. A trait system was used to apply these strategies, and a test framework was developed using the Builder pattern to ensure robust and modular code.
+#link("https://github.com/hesampakdaman/rustic_factors")[*Integer factorization*].
+In this project, I explored various number factorization algorithms.
+The aim was to learn more about Rust's advanced features such as
+generics, dynamic dispatch, and procedural macros while implementing
+design patterns like Strategy, Builder, and New Type. The project
+includes algorithms such as Miller-Rabin, Fermat's factorization
+method, Pollard's Rho, and trial division. A trait system was used to
+apply these strategies, and a test framework was developed using the
+Builder pattern to ensure robust and modular code.
