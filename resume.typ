@@ -77,7 +77,7 @@
 
 #experience_entry(
     logo_path: "./logo/ding.png",
-    company: "DING",
+    company: smallcaps("ding"),
     role: "Machine Learning Engineer",
     start_date: "Jan 2018",
     end_date: "Feb 2021",
