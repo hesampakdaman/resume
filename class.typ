@@ -1,14 +1,17 @@
 #let par_space = 0.5em
 
-#let experience_entry(logo_path: str, company: str, role: str, start_date: str, end_date: none, description: str, skills: list[str]) = {
+#let experience_entry(logo_path: str, logo_size: none, company: str, role: str, start_date: str, end_date: none, description: str, skills: list[str]) = {
+    if logo_size == none {
+        logo_size = 1.3cm
+    }
     grid(
         columns: (3.5cm, 1fr),
         gutter: 0cm,
         inset: (x: 5pt, y: 1pt),
         grid.cell(
             figure(
-                image(logo_path, width: 1.3cm),
-                caption: [#company],
+                image(logo_path, width: logo_size),
+                caption: [#text(size:7.5pt, company)],
                 numbering: none,
                 placement: bottom,
                 kind: image,

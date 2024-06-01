@@ -35,6 +35,7 @@
 = Experience
 #experience_entry(
     logo_path: "./logo/hm.png",
+    logo_size: 1cm,
     company: "H&M Group",
     role: "Software Engineer",
     start_date: "Mar 2023",
