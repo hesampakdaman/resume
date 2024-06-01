@@ -68,7 +68,7 @@
         set text(weight: "light", size: 1.2em, fill: color)
         stack(
             dir: ttb,
-            spacing: 2mm,
+            spacing: 3mm,
             title,
             line(length: 100%, stroke: color)
         )
