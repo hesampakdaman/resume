@@ -1,4 +1,3 @@
-#let par_space = 0.5em
 #let font_default_size = 11pt
 
 #let experience_entry(logo_path: str, logo_size: none, company: str, role: str, start_date: str, end_date: none, description: str, skills: list[str]) = {
@@ -46,8 +45,13 @@
 // Set name and contact data and format headings
 #let template(name, contact_data, color, doc) = {
     set page(margin: (x: 1.5cm, y: 0.5cm))
-    set text(font_default_size)
-    set par(justify: true, leading: par_space)
+    set par(justify: true, leading: 0.4em)
+    set text(size: font_default_size, font: "New Computer Modern")
+    show heading: set block(above: 1.5em, below: 0.5em)
+    show link: set text(fill: rgb(0, 0, 255))
+    show par: set block(spacing: 0.5em)
+    show raw: set text(font: "New Computer Modern")
+
     align(center)[
         #smallcaps(text(size: 2.5em, fill: color)[#name]) \
         #{

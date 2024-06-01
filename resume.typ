@@ -8,12 +8,6 @@
         "link": "https://github.com/hesampakdaman"
     ),
 )
-#set par(justify: true)
-#set text(size: 10pt, font: "New Computer Modern")
-#show heading: set block(above: 1.5em, below: 0.5em)
-#show link: set text(fill: rgb(0, 0, 255))
-#show par: set block(spacing: 0.5em)
-#show raw: set text(font: "New Computer Modern")
 #show: doc => template("Hesam Pakdaman", contact_data, black, doc)
 
 #align(center)[
