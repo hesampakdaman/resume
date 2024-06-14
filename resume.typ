@@ -60,7 +60,7 @@
     role: "Machine Learning Engineer",
     start_date: "Feb 2021",
     end_date: "Mar 2022",
-    description: "Entecon is a Swedish consultancy firm. I was contracted to work for Nielsen, a US-based company providing advanced video metadata solutions to leading media companies. My role was to assisst the team responsible for video segmentation, focusing on accurately categorizing commercial and program content.",
+    description: "Entecon is a Swedish consultancy firm. I was contracted to work for Nielsen, a US-based company providing advanced video metadata solutions to leading media companies. My role was to assist the team responsible for video segmentation, focusing on accurately categorizing commercial and program content.",
     skills: ("Pandas", "PyTorch", "Matplotlib", "NumPy")
 )
 
@@ -70,7 +70,7 @@
     role: "Machine Learning Engineer",
     start_date: "Jan 2018",
     end_date: "Feb 2021",
-    description: "At " + smallcaps("ding") + " I was hired as a concluntant for Convini, a Swedish company providing workplace food solutions through self-service stations. I built a deep learning system using cameras mounted on fridges to accurately detect which products customers selected.",
+    description: "At " + smallcaps("ding") + " I was hired as a consultant for Convini, a Swedish company providing workplace food solutions through self-service stations. I built a deep learning system using cameras mounted on fridges to accurately detect which products customers selected.",
     skills: (
         "CUDA",
         "CloneZilla",
