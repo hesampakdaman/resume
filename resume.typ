@@ -45,13 +45,12 @@
     role: "Machine Learning Engineer",
     start_date: "Apr 2022",
     end_date: "Feb 2023",
-    description: "Budbee (part of Instabee Group) is a Swedish last-mile delivery company founded in 2016, focusing on efficient deliveries for online shopping across several European countries. I was part of the ML team, providing predictions and data insights to support various departments within the company.",
+    description: "Budbee is a Swedish last-mile delivery company focusing on efficient deliveries for online shopping across Europe. I was part of the ML team, providing predictions and data insights to support various departments within the company.",
     skills: (
         "LightGBM",
         "Metaflow",
         "MySQL",
         "PyTorch",
-        "Snowflake",
     )
 )
 
@@ -61,8 +60,13 @@
     role: "Machine Learning Engineer",
     start_date: "Feb 2021",
     end_date: "Mar 2022",
-    description: "Entecon is a Swedish consultancy firm. I was contracted to work for Nielsen, a US-based company providing advanced video metadata solutions to leading media companies. My role was to assist the team responsible for video segmentation, focusing on accurately categorizing commercial and program content.",
-    skills: ("Pandas", "PyTorch", "Matplotlib", "NumPy")
+    description: "Entecon is a Swedish consultancy firm. I was contracted to work for Nielsen, a US-based company providing advanced video metadata solutions to leading media companies. My role was to assist the team responsible for video segmentation.",
+    skills: (
+        "Matplotlib",
+        "NumPy",
+        "Pandas",
+        "PyTorch",
+    )
 )
 
 #experience_entry(
@@ -71,10 +75,9 @@
     role: "Machine Learning Engineer",
     start_date: "Jan 2018",
     end_date: "Feb 2021",
-    description: "At " + smallcaps("ding") + " I was hired as a consultant for Convini, a Swedish company providing workplace food solutions through self-service stations. I built a deep learning system using cameras mounted on fridges to accurately detect which products customers selected.",
+    description: "Hired at " + smallcaps("ding") + " as a consultant for Convini, a Swedish company providing workplace food solutions through self-service stations. I built a deep learning system using cameras mounted on fridges to detect products customers selected.",
     skills: (
         "CUDA",
-        "CloneZilla",
         "FLIR",
         "NumPy",
         "PyTorch"
