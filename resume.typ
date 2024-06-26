@@ -14,6 +14,7 @@
 #align(center)[
     #skill_entry("Programming languages",
         (
+            "Go",
             "Python",
             "Lisp",
             "Rust",
