@@ -2,7 +2,7 @@
 
 // Set name and contact data and format headings
 #let template(name, contact_data, color, doc) = {
-    set page(margin: (x: 1.5cm, y: 0.5cm))
+    set page(margin: (x: 1.5cm, y: 0.8cm))
     set par(justify: true, leading: 0.4em)
     set text(size: font_default_size, font: "New Computer Modern")
     show heading: set block(above: 1.5em, below: 0.5em)
