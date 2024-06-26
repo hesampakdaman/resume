@@ -46,7 +46,7 @@
     doc
 }
 
-#let experience_entry(logo_path: str, logo_size: none, company: str, role: str, start_date: str, end_date: none, description: str, skills: list[str]) = {
+#let experience_entry(logo_path: str, logo_size: none, company: str, role: str, start_date: str, end_date: none, description: str, skills: none) = {
     if logo_size == none {
         logo_size = 1.3cm
     }
@@ -72,9 +72,13 @@
                 #v(1mm)
                 #description
                 #v(1mm)
-                #let cell = rect.with(radius: 3pt, inset: 3pt)
-                #let boxes = for skill in skills {(box(cell(text(size: 8pt, skill))),)}
-                #{boxes.join(" ")}
+                #{
+                    if skills != none {
+                        let cell = rect.with(radius: 3pt, inset: 3pt)
+                        let boxes = for skill in skills {(box(cell(text(size: 8pt, skill))),)}
+                        {boxes.join(" ")}
+                    }
+                }
             ]
         ),
     )
