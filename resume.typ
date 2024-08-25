@@ -24,18 +24,27 @@
 
 = Experience
 #experience_entry(
+    logo_path: "./logo/einride.png",
+    logo_size: 0.85cm,
+    company: "Einride",
+    role: "Software Engineer",
+    start_date: "Aug 2024",
+    description: "Einride is a leader in autonomous and electric transport, focusing on sustainable and efficient logistics solutions. The company pioneers innovative technology to reduce" + $"CO"_2$ + " emissions and enhance freight mobility, aiming to create a more sustainable future for road freight.",
+)
+
+#experience_entry(
     logo_path: "./logo/hm.png",
     logo_size: 0.85cm,
     company: "H&M Group",
     role: "Software Engineer",
     start_date: "Mar 2023",
-    description: "Developing an e-commerce platform named Creator Studio; for designing, ordering, and selling custom print-on-demand merchandise globally, with a focus on sustainability and minimal environmental impact.",
+    end_date: "June 2024",
+    description: "I developed the e-commerce platform Creator Studio, a venture within global fashion company H&M, for designing, ordering, and selling custom print-on-demand merchandise globally with an emphasis on minimal environmental impact.",
     skills: (
+        "K8s",
         "Kafka",
-        "Kubernetes",
         "MongoDB",
         "PostgreSQL",
-        "Terraform",
     )
 )
 
@@ -107,7 +116,7 @@
 \
 
 #show link: underline
-= Recent hobby projects
+= Hobby projects
 #link("https://github.com/hesampakdaman/rust_1brc")[*1 billion row challenge*].
 This challenge involves processing one billion temperature
 measurements to compute the minimum, mean, and maximum temperatures
@@ -118,14 +127,14 @@ performance and a customize hash function tailored for the dataset.
 The project achieves high performance, processing the entire 13GB
 input file using all available CPU cores. On an Apple M1 Pro it
 processes the input file in $~2.75$s.
-\
-\
-#link("https://github.com/hesampakdaman/rustic_factors")[*Integer factorization*].
-In this project, I explored various number factorization algorithms.
-The aim was to learn more about Rust's advanced features such as
-generics, dynamic dispatch, and procedural macros while implementing
-design patterns like Strategy, Builder, and New Type. The project
-includes algorithms such as Miller-Rabin, Fermat's factorization
-method, Pollard's Rho, and trial division. A trait system was used to
-apply these strategies, and a test framework was developed using the
-Builder pattern to ensure robust and modular code.
+// \
+// \
+// #link("https://github.com/hesampakdaman/rustic_factors")[*Integer factorization*].
+// In this project, I explored various number factorization algorithms.
+// The aim was to learn more about Rust's advanced features such as
+// generics, dynamic dispatch, and procedural macros while implementing
+// design patterns like Strategy, Builder, and New Type. The project
+// includes algorithms such as Miller-Rabin, Fermat's factorization
+// method, Pollard's Rho, and trial division. A trait system was used to
+// apply these strategies, and a test framework was developed using the
+// Builder pattern to ensure robust and modular code.
