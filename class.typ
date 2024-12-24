@@ -70,7 +70,7 @@
             align: left,
             [
                 *#role* \
-                #text(size: font_default_size - 1pt, start_date)―#text(size: font_default_size - 1pt, end_date) \
+                _#text(size: font_default_size - 1pt, start_date)―#text(size: font_default_size - 1pt, end_date)_ \
                 #description \
                 #{
                     if skills != none {
