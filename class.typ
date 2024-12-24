@@ -68,10 +68,8 @@
             align: left,
             [
                 *#role* \
-                #text(size: font_default_size - 1pt, start_date)―#text(size: font_default_size - 1pt, end_date)
-                #v(1mm)
-                #description
-                #v(1mm)
+                #text(size: font_default_size - 1pt, start_date)―#text(size: font_default_size - 1pt, end_date) \
+                #description \
                 #{
                     if skills != none {
                         let cell = rect.with(radius: 3pt, inset: 3pt)

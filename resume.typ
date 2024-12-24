@@ -93,6 +93,8 @@
     )
 )
 
+\
+
 = Education
 #grid(
     columns: (1.5cm, 1fr),
