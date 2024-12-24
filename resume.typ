@@ -29,7 +29,13 @@
     company: "Einride",
     role: "Software Engineer",
     start_date: "Aug 2024",
-    description: "Einride is a leader in autonomous and electric transport, focusing on sustainable and efficient logistics solutions. The company pioneers innovative technology to reduce" + $"CO"_2$ + " emissions and enhance freight mobility, aiming to create a more sustainable future for road freight.",
+    description: "Einride is a pioneer in autonomous and electric transportation, dedicated to delivering sustainable and efficient logistics solutions. I am part of the Data team, responsible for collecting telemetry from all vehicles and ensuring it is accessible to all engineering teams.",
+    skills: (
+        "GCP",
+        "gRPC",
+        "PostgreSQL",
+        "Pub/Sub",
+    )
 )
 
 #experience_entry(
@@ -39,9 +45,9 @@
     role: "Software Engineer",
     start_date: "Mar 2023",
     end_date: "June 2024",
-    description: "I developed the e-commerce platform Creator Studio, a venture within global fashion company H&M, for designing, ordering, and selling custom print-on-demand merchandise globally with an emphasis on minimal environmental impact.",
+    description: "I helped developed the e-commerce platform Creator Studio, a venture within global fashion company H&M, for designing, ordering, and selling custom print-on-demand merchandise globally with an emphasis on minimal environmental impact.",
     skills: (
-        "K8s",
+        "k8s",
         "Kafka",
         "MongoDB",
         "PostgreSQL",
