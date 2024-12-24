@@ -53,13 +53,15 @@
     grid(
         columns: (3.5cm, 1fr),
         gutter: 0cm,
-        inset: (x: 5pt, y: 1pt),
+        inset: (x: 3pt, y: 1pt),
         grid.cell(
+            breakable: false,
+            inset: (y: 5pt),
             figure(
                 image(logo_path, width: logo_size),
-                caption: [#text(size: font_default_size - 1.5pt, company)],
+                caption: [#text(size: font_default_size - 2pt, company)],
                 numbering: none,
-                placement: bottom,
+                placement: top,
                 kind: image,
             )
 
