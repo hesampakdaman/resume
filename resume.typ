@@ -30,7 +30,7 @@
     role: "Software Engineer",
     start_date: "Aug 2024",
     end_date: "Feb 2025",
-    description: "Einride is a pioneer in autonomous and electric transportation, dedicated to delivering sustainable and efficient logistics solutions. I am part of the Data team, responsible for collecting telemetry from all vehicles and ensuring it is accessible to all engineering teams.",
+    description: "Einride is a pioneer in autonomous and electric transportation, dedicated to delivering sustainable and efficient logistics solutions. I was part of the Data team, responsible for collecting telemetry from all vehicles and ensuring its accessibility to the engineering teams.",
     skills: (
         "GCP",
         "gRPC",
