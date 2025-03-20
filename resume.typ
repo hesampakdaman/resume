@@ -51,7 +51,7 @@
     role: "Backend Engineer",
     start_date: "Aug 2024",
     end_date: "Feb 2025",
-    description: "Optimized legacy data flows and introduced an event-driven architecture for scalable telemetry processing. Restructured the codebase for better adaptability. Reduced integration test time and improved observability with structured error reporting. Authored ADRs to standardize logging.",
+    description: "Optimized multiple legacy flows, with the best improvement reducing execution time from 30s to 200ms. Reduced integration test time for the team's main service from 40s to 5s. Introduced an event-driven architecture for scalable telemetry processing and restructured the codebase for better adaptability. Improved observability with structured error reporting and authored ADRs to standardize logging.",
     skills: (
         "GCP",
         "gRPC",
