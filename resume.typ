@@ -1,5 +1,5 @@
 #import "class.typ": template, skill_entry, experience_entry
-
+#show link: underline
 
 #let contact_data = (
     (
@@ -124,7 +124,7 @@
 
 \
 
-#show link: underline
+
 = Hobby projects
 #link("https://github.com/hesampakdaman/rust_1brc")[*1 billion row challenge*].
 This challenge involves processing one billion temperature
@@ -136,6 +136,7 @@ performance and a customize hash function tailored for the dataset.
 The project achieves high performance, processing the entire 13GB
 input file using all available CPU cores. On an Apple M1 Pro it
 processes the input file in $~2.75$s.
+
 // \
 // \
 // #link("https://github.com/hesampakdaman/rustic_factors")[*Integer factorization*].
