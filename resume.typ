@@ -1,4 +1,4 @@
-#import "class.typ": template, skill_entry, experience_entry
+#import "class.typ": template, skill_entry, experience_entry, font_default_size
 #show link: underline
 
 #let contact_data = (
@@ -10,6 +10,26 @@
 )
 
 #show: doc => template("Hesam Pakdaman", contact_data, black, doc)
+
+// Technical Expertise Section
+#box(
+    inset: (x: 40pt, y: 10pt),  // More vertical space
+    radius: 5pt,
+    stroke: 1pt,
+    // fill: rgb(200, 220, 200),
+)[
+    #text(size: font_default_size)[
+
+        Backend engineer with experience in developing scalable
+        distributed systems, focusing on fault-tolerant event-driven
+        architectures. Enjoys hexagonal architecture and domain-driven
+        design to build maintainable, adaptable software. Also has prior
+        experience with artificial intelligence, specializing in
+        machine learning with deployed models for predictive
+        analytics, video segmentation, and real-time object detection.
+
+    ]
+]
 
 #align(center)[
     #skill_entry("Programming languages",
