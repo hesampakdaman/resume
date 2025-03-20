@@ -25,7 +25,7 @@
 
 // Technical Expertise Section
 #box(
-    inset: (x: 80pt, top: 1pt, bottom: 10pt),  // More vertical space
+    inset: (x: 80pt, top: 1pt),  // More vertical space
     radius: 5pt,
     stroke: 0pt,
 )[
@@ -40,6 +40,8 @@
 
     ]
 ]
+
+#v(1em)
 
 = Experience
 #experience_entry(
@@ -119,7 +121,7 @@
     )
 )
 
-\
+#v(1em)
 
 = Education
 #grid(
@@ -140,9 +142,6 @@
         ]
     ),
 )
-
-\
-
 
 // = Hobby projects
 // #link("https://github.com/hesampakdaman/rust_1brc")[*1 billion row challenge*].
