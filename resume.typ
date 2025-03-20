@@ -80,7 +80,7 @@
     role: "Machine Learning Engineer",
     start_date: "Apr 2022",
     end_date: "Feb 2023",
-    description: "Budbee is a Swedish last-mile delivery company focusing on efficient deliveries for online shopping across Europe. I was part of the ML team, providing predictions and data insights to support various departments within the company.",
+    description: "Improved models for package size classification and prototyped a model for better drive-time estimates. Ported a segmentation model from Java to a microservice in Python. Developed CLI tools for AWS labeling jobs and created reusable database libraries to eliminate redundant code. Acted as temporary team lead for three months, coordinating engineering efforts in the absence of managers.",
     skills: (
         "LightGBM",
         "Metaflow",
