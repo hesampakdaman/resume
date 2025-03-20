@@ -66,7 +66,7 @@
     role: "Backend Engineer",
     start_date: "Mar 2023",
     end_date: "June 2024",
-    description: "I helped developed the e-commerce platform Creator Studio, a venture within global fashion company H&M, for designing, ordering, and selling custom print-on-demand merchandise globally with an emphasis on minimal environmental impact.",
+    description: "Designed and implemented new microservices, introducing event-driven patterns like the outbox pattern. Contributed to backend architecture discussions and feature development in the order flow, including order moderation and partial fulfillment handling.",
     skills: (
         "k8s",
         "Kafka",
