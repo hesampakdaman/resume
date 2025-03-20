@@ -110,7 +110,7 @@
     role: "Machine Learning Engineer",
     start_date: "Jan 2018",
     end_date: "Feb 2021",
-    description: "Hired at " + smallcaps("ding") + " as a consultant for Convini, a Swedish company providing workplace food solutions through self-service stations. I built a deep learning system using cameras mounted on fridges to detect products customers selected.",
+    description: "Developed a real-time object detection system for self-service fridges, enabling automatic product recognition using mounted cameras. Built a data annotation pipeline with feedback integration and optimized model training time. Evaluated and selected camera hardware, ensuring optimal placement. Integrated the detection system with the company’s ecosystem, automating recognition when fridge doors opened.",
     skills: (
         "CUDA",
         "FLIR",
