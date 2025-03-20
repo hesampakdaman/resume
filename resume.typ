@@ -67,7 +67,7 @@
     role: "Backend Engineer",
     start_date: "Mar 2023",
     end_date: "June 2024",
-    description: "Designed and implemented new microservices, introducing event-driven patterns like the outbox pattern. Contributed to backend architecture discussions and feature development in the order flow, including order moderation and partial fulfillment handling.",
+    description: "Designed and implemented new microservices, introducing event-driven patterns like the outbox pattern. Contributed to backend architecture discussions and developed features in the order flow, such as order moderation and partial fulfillment.",
     skills: (
         "k8s",
         "Kafka",
@@ -97,7 +97,7 @@
     role: "Machine Learning Engineer",
     start_date: "Feb 2021",
     end_date: "Mar 2022",
-    description: "Consulted for a California-based client, ensuring data quality through an extensible scoring library for dataset validation. Provided data insights to the team and developed a library to compute metrics for 1D video segmentation, improving accuracy in distinguishing programs from commercials. Built a smoothing library to refine model outputs, reducing classification noise and improving prediction consistency.",
+    description: "Consulted for a California-based client, ensuring data quality through an extensible scoring library for dataset validation. Provided data insights to the team and developed a library to compute IoU metrics for 1D video segmentation, improving accuracy in distinguishing programs from commercials. Built a smoothing library to refine model outputs, reducing classification noise and improving prediction consistency.",
     skills: (
         "Matplotlib",
         "NumPy",
