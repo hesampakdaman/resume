@@ -95,7 +95,7 @@
     role: "Machine Learning Engineer",
     start_date: "Feb 2021",
     end_date: "Mar 2022",
-    description: "Entecon is a Swedish consultancy firm. I was contracted to work for Nielsen, a US-based company providing advanced video metadata solutions to leading media companies. My role was to assist the team responsible for video segmentation.",
+    description: "Consulted for a California-based client, ensuring data quality through an extensible scoring library for dataset validation. Provided data insights to the team and developed a library to compute metrics for 1D video segmentation, improving accuracy in distinguishing programs from commercials. Built a smoothing library to refine model outputs, reducing classification noise and improving prediction consistency.",
     skills: (
         "Matplotlib",
         "NumPy",
