@@ -50,7 +50,7 @@
     role: "Backend Engineer",
     start_date: "Aug 2024",
     end_date: "Feb 2025",
-    description: "Einride is a pioneer in autonomous and electric transportation, dedicated to delivering sustainable and efficient logistics solutions. I was part of the Data team, responsible for collecting telemetry from all vehicles and ensuring its accessibility to the engineering teams.",
+    description: "Optimized legacy data flows and introduced an event-driven architecture for scalable telemetry processing. Restructured the codebase for better adaptability. Reduced integration test time and improved observability with structured error reporting. Authored ADRs to standardize logging.",
     skills: (
         "GCP",
         "gRPC",
