@@ -61,7 +61,7 @@
 )
 
 #experience_entry(
-    logo_path: "./logo/hm.png",
+    logo_path: "./logo/hm.svg",
     logo_size: 0.85cm,
     company: "H&M Group",
     role: "Backend Engineer",
