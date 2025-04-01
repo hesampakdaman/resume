@@ -67,7 +67,7 @@
     role: "Backend Engineer",
     start_date: "Mar 2023",
     end_date: "June 2024",
-    description: "Designed and implemented new microservices, introducing event-driven patterns like the outbox pattern. Contributed to backend architecture discussions and developed features in the order flow, such as order moderation and partial fulfillment.",
+    description: "Designed and implemented new microservices, introducing event-driven patterns like the outbox pattern. Built the team's first integration with a third-party service to enable A/B testing. Contributed to backend architecture discussions and developed features in the order flow, such as order moderation and partial fulfillment.",
     skills: (
         "k8s",
         "Kafka",
