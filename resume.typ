@@ -4,7 +4,7 @@
 #let contact_data = (
     (
         "service": "github",
-        "display": "hesampakdaman",
+        "display": "GitHub",
         "link": "https://github.com/hesampakdaman"
     ),
 )
