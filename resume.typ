@@ -31,12 +31,11 @@
 )[
     #text(size: font_default_size)[
 
-        Backend engineer with experience in developing scalable
-        distributed systems, focusing on fault-tolerant event-driven
+        Backend engineer experienced in building scalable distributed
+        systems, focusing on fault-tolerant event-driven
         architectures. Enjoys hexagonal architecture and domain-driven
-        design to build adaptable software. Has prior experience with
-        artificial intelligence, specializing in developing machine
-        learning systems.
+        design for adaptable software. Prior experience in artificial
+        intelligence, focused on machine learning systems.
 
     ]
 ]
