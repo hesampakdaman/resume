@@ -7,6 +7,11 @@
         "display": "GitHub",
         "link": "https://github.com/hesampakdaman"
     ),
+    (
+        "service": "linkedin",
+        "display": "LinkedIn",
+        "link": "https://linkedin.com/in/hesampakdaman",
+    ),
 )
 
 #show: doc => template("Hesam Pakdaman", contact_data, black, doc)
@@ -33,7 +38,7 @@
 
 // Technical Expertise Section
 #box(
-    inset: (x: 80pt, top: 1pt),  // More vertical space
+    inset: (x: 80pt, top: 1pt),
     radius: 5pt,
     stroke: 0pt,
 )[
