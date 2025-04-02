@@ -12,16 +12,24 @@
 #show: doc => template("Hesam Pakdaman", contact_data, black, doc)
 
 #align(center)[
-    #skill_entry("Programming languages",
-        (
-            "Go",
-            "Python",
-            "Lisp",
-            "Rust",
+    #grid(columns: 2, rows: 1, gutter: 1cm,
+        skill_entry("Programming",
+            (
+                "Go",
+                "Python",
+                "Lisp",
+                "Rust",
+            )
+        ),
+        skill_entry("Languages",
+            (
+                "English",
+                "Svenska",
+                "Farsi",
+            )
         )
     )
 ]
-
 
 // Technical Expertise Section
 #box(
