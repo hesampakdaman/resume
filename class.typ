@@ -1,4 +1,4 @@
-#let font_default_size = 11pt
+#let font_default_size = 9.5pt
 
 // Set name and contact data and format headings
 #let template(name, contact_data, color, doc) = {

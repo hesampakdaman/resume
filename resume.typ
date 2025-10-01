@@ -57,6 +57,22 @@
 
 = Experience
 #experience_entry(
+    logo_path: "./logo/voi.jpg",
+    logo_size: 0.90cm,
+    company: "Voi Technology",
+    role: "Senior Backend Engineer",
+    start_date: "May 2025",
+    end_date: "Sep 2025",
+    description: "Main contributor to the architectural redesign of the maintenance domain with emphasis on DDD patterns and transactional integrity. Modernized legacy services by replacing outdated Docker-based workflows with native Go tools, fixing broken linting in legacy CI/CD pipelines, and upgrading codebases to current standards. Led cross-team initiatives to remove `vendor` directories and paved way for GoReleaser to be incorporated for faster, standardized releases.",
+    skills: (
+        "Go",
+        "GCP",
+        "PostgreSQL",
+        "Pub/Sub",
+    )
+)
+
+#experience_entry(
     logo_path: "./logo/einride.png",
     logo_size: 0.85cm,
     company: "Einride",
@@ -65,6 +81,7 @@
     end_date: "Feb 2025",
     description: "Optimized multiple legacy flows, with the best improvement reducing execution time from 30s to 200ms. Reduced integration test time for the team's main service from 40s to 5s. Introduced an event-driven architecture for scalable telemetry processing and restructured the codebase for better adaptability. Improved observability with structured error reporting and authored ADRs to standardize logging.",
     skills: (
+        "Go",
         "GCP",
         "gRPC",
         "PostgreSQL",
@@ -81,6 +98,7 @@
     end_date: "June 2024",
     description: "Designed and implemented new microservices, introducing event-driven patterns like the outbox pattern. Built the team's first integration with a third-party service to enable A/B testing. Contributed to backend architecture discussions and developed features in the order flow, such as order moderation and partial fulfillment.",
     skills: (
+        "Python",
         "k8s",
         "Kafka",
         "MongoDB",
@@ -96,6 +114,7 @@
     end_date: "Feb 2023",
     description: "Improved models for package size classification and prototyped a model for better drive-time estimates. Ported a segmentation model from Java to a microservice in Python. Developed CLI tools for AWS labeling jobs and created reusable database libraries to eliminate redundant code. Acted as temporary team lead for three months, coordinating engineering efforts in the absence of managers.",
     skills: (
+        "Python",
         "LightGBM",
         "Metaflow",
         "MySQL",
@@ -111,6 +130,7 @@
     end_date: "Mar 2022",
     description: "Consulted for a California-based client, ensuring data quality through an extensible scoring library for dataset validation. Provided data insights to the team and developed a library to compute IoU metrics for 1D video segmentation, improving accuracy in distinguishing programs from commercials. Built a smoothing library to refine model outputs, reducing classification noise and improving prediction consistency.",
     skills: (
+        "Python",
         "Matplotlib",
         "NumPy",
         "Pandas",
@@ -126,6 +146,7 @@
     end_date: "Feb 2021",
     description: "Developed a real-time object detection system for self-service fridges, enabling automatic product recognition using mounted cameras. Built a data annotation pipeline with feedback integration and optimized model training time. Evaluated and selected camera hardware, ensuring optimal placement. Integrated the detection system with the company’s ecosystem, automating recognition when fridge doors opened.",
     skills: (
+        "Python",
         "CUDA",
         "FLIR",
         "NumPy",
