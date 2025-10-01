@@ -63,9 +63,10 @@
     role: "Senior Backend Engineer",
     start_date: "May 2025",
     end_date: "Sep 2025",
-    description: "Main contributor to the architectural redesign of the maintenance domain with emphasis on DDD patterns and transactional integrity. Modernized legacy services by replacing outdated Docker-based workflows with native Go tools, fixing broken linting in legacy CI/CD pipelines, and upgrading codebases to current standards. Led cross-team initiatives to remove `vendor` directories and paved way for GoReleaser to be incorporated for faster, standardized releases.",
+    description: text[Main contributor to the architectural redesign of the maintenance domain with emphasis on DDD patterns and transactional integrity. Modernized legacy services by replacing outdated Docker-based workflows with native Go tools, fixing broken linting in legacy CI/CD pipelines, and upgrading codebases to current standards. Led cross-team initiatives to remove _vendor_ directories and paved way for GoReleaser to be incorporated for faster, standardized releases.],
     skills: (
         "Go",
+        "gRPC",
         "GCP",
         "PostgreSQL",
         "Pub/Sub",
